@@ -14,6 +14,9 @@ spring:
       properties: 
          hibernate: 
             generate_statistics: true
+   cloud:
+    config:
+      allowOverride: true
 server:
    port : 8082
 eureka:         #tells about the Eureka server details and its refresh time
@@ -27,7 +30,3 @@ eureka:         #tells about the Eureka server details and its refresh time
       enabled: true
     lease:
       duration: 5
-spring:
-  cloud:
-    config:
-      allowOverride: true
