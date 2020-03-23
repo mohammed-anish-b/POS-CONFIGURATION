@@ -27,3 +27,7 @@ eureka:         #tells about the Eureka server details and its refresh time
       enabled: true
     lease:
       duration: 5
+spring:
+  cloud:
+    config:
+      allowOverride: true
