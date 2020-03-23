@@ -17,6 +17,8 @@ spring:
    cloud:
     config:
       allowOverride: true
+      overrideNone: true
+      overrideSystemProperties: false
 server:
    port : 8082
 eureka:         #tells about the Eureka server details and its refresh time
