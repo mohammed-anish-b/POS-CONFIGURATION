@@ -2,7 +2,7 @@ spring:
    application:
       name: possale
    datasource:
-      url: jdbc:mysql://localhost:3306/possale?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
+      url: jdbc:mysql://localhost:3306/possale?AllowPublicKeyRetrieval=True&useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
       username: root
       password: root
       driver-class-name: com.mysql.cj.jdbc.Driver
